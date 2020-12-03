@@ -4,9 +4,9 @@ const AWS = require("aws-sdk");
 const UserModel = require("./model-mvc");
 
 // Enter copied or downloaded access ID and secret key here
-const ID = "AKIAXR6QT46DAWFZQ5PQ";
-const SECRET = "2xeSiUBY4JMTeux1oZ8Jsy9g9bPEud8PM7aLlT9r";
-const BUCKET_NAME = "aws-sample-1997";
+const ID = "AKIAR6QGZP57VKYW5OG6";
+const SECRET = "HTaShzFXI1bjENWDqfvvPSzk6Bkri4ynZLfmnnI4";
+const BUCKET_NAME = "aws-s3-bucket-s3";
 
 const s3 = new AWS.S3({
   accessKeyId: ID,
